@@ -19,7 +19,7 @@ HEADERS = {
 }
 
 # File to store a copy of the database
-DB_FILE = "./db.json"
+DB_FILE = os.getenv('DB_FILE')
 
 # Read the database with the given ID and headers
 def read_database(database_id, headers):
