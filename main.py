@@ -91,9 +91,9 @@ def main():
 
 
 if __name__ == "__main__":
-#     main()
-    # Run the main function every 15 seconds
-    schedule.every(5).minutes.do(main)
-
-    while True:
-        schedule.run_pending()
+    main()
+#     # Run the main function every 15 seconds
+#     schedule.every(5).minutes.do(main)
+#
+#     while True:
+#         schedule.run_pending()
